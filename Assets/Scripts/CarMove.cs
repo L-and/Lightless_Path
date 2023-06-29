@@ -35,6 +35,7 @@ public class CarMove : MonoBehaviour
             {
                 // 목표 위치에 도달한 경우 이동 종료
                 transform.position = targetObject.position;
+                gameObject.SetActive(false);
             }
         }
     }
