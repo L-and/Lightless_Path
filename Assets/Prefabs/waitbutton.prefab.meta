@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/Text Scripts/Story Script.txt.meta
+<<<<<<<< HEAD:Assets/POLYGON city pack/Read_me.txt.meta
+guid: ef0fc90f223e4144ca4cd161fa315158
+timeCreated: 1518054453
+licenseType: Store
+========
+guid: 0c44a2921015a5b4691d661a4c9068bb
+>>>>>>>> main_system:Assets/Scripts/Text Scripts/Story Script.txt.meta
+TextScriptImporter:
+=======
+guid: e7a20b496a677084ab51068021ae6fcf
+PrefabImporter:
+>>>>>>> crosswalk-2:Assets/Prefabs/waitbutton.prefab.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

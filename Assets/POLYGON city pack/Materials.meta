@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/POLYGON city pack/Materials.meta
 guid: 25a3e4884eb11774bbce8c47423058ad
 ========
 guid: 1e054fc6b02310b4d83caf1fba417960
 >>>>>>>> main_system:Assets/Materials.meta
+=======
+guid: 25a3e4884eb11774bbce8c47423058ad
+>>>>>>> crosswalk-2
 folderAsset: yes
 timeCreated: 1517354822
 licenseType: Store

@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/POLYGON city pack/Prefabs.meta
 guid: 55c50c4d813fe7140a42d24d27cfa7fc
 ========
 guid: cbd66028b0b23894cb3473e837ba7d77
 >>>>>>>> main_system:Assets/Prefabs.meta
+=======
+guid: 55c50c4d813fe7140a42d24d27cfa7fc
+>>>>>>> crosswalk-2
 folderAsset: yes
 timeCreated: 1517354667
 licenseType: Store

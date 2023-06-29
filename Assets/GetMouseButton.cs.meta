@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/TextEventTriggerSelecter.cs.meta
+<<<<<<<< HEAD:Assets/Scripts/Caraction.cs.meta
+guid: 841b4b619e9e1004dacea133afb601d3
+========
+guid: 349bd7c000057924ebc5044d8f3a51f2
+>>>>>>>> main_system:Assets/Scripts/TextEventTriggerSelecter.cs.meta
+=======
+guid: b68093e77e5a46645b08ff1500deb6b9
+>>>>>>> crosswalk-2:Assets/GetMouseButton.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

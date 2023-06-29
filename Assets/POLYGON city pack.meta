@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 12aff401794b27243a250e1085bae60b
+=======
+<<<<<<<< HEAD:Assets/Scripts/Text Scripts.meta
+<<<<<<<< HEAD:Assets/Azerilo.meta
+guid: 40c41615d6040ed44ad89d7241225942
+========
+guid: fef8102d84b77254e8352e908acb14ff
+>>>>>>>> main_system:Assets/Scripts/Text Scripts.meta
+========
+guid: 65df7738b28b0d4438d2ec8de783fef8
+>>>>>>>> crosswalk-2:Assets/POLYGON city pack.meta
+>>>>>>> crosswalk-2
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/POLYGON city pack/Materials.meta
-guid: 25a3e4884eb11774bbce8c47423058ad
+guid: 61ff4944f672d6f499bb95456813e95d
 ========
 guid: 1e054fc6b02310b4d83caf1fba417960
 >>>>>>>> main_system:Assets/Materials.meta
+=======
+<<<<<<< HEAD:Lightless_Path/Assets/Materials.meta
+guid: eedc6ea7be866614482a06e14d58e345
+=======
+guid: 1e054fc6b02310b4d83caf1fba417960
+>>>>>>> main_system:Assets/Materials.meta
+>>>>>>> crosswalk-2
 folderAsset: yes
 timeCreated: 1517354822
 licenseType: Store
