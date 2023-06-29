@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - EventTrigger
+=======
+  - goal
+>>>>>>> gwonsan
   layers:
   - Default
   - TransparentFX
