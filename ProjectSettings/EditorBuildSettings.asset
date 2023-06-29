@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Start Scene.unity
     guid: bcca94676cf2bc946945350793d7159f
   - enabled: 1
+=======
+>>>>>>> gwonsan
     path: Assets/Scenes/golmok.unity
     guid: 03fc7e9de89a7aa4f865bc78b85641cf
   - enabled: 1

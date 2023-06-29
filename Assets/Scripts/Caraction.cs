@@ -17,16 +17,10 @@ public class Caraction : MonoBehaviour
     // Update is called once per frame
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.gameObject.CompareTag("Player"))
-        {
-            audioSource.clip = carClarkson;
-            audioSource.Play();
-            Debug.Log("detect");
-        }
         if (collision.collider.gameObject.CompareTag("goal"))
         {
             Debug.Log("goal");
-            //SceneManager.LoadScene("nextScene");
+            SceneManager.LoadScene("Cross_Scene");
         }
     }
 }
