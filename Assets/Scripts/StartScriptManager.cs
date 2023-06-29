@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartScriptManager : MonoBehaviour
+public class ScriptManager : MonoBehaviour
 {
-    private static StartScriptManager instance = null;
+    private static ScriptManager instance = null;
 
     // Singleton Instance에 접근하기 위한 프로퍼티
-    public static StartScriptManager Instance
+    public static ScriptManager Instance
     {
         get
         {

@@ -979,7 +979,7 @@ GameObject:
   - component: {fileID: 1744093939}
   - component: {fileID: 1744093938}
   m_Layer: 0
-  m_Name: StartScriptManager
+  m_Name: ScriptManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

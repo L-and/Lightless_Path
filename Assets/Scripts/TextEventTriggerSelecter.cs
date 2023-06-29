@@ -37,7 +37,7 @@ public class TextEventTriggerSelecter : MonoBehaviour
                 Debug.Log(gameObject.tag);
                 if (gameObject.tag == "brailleBlock")
                 {
-                    UIManger.Instance.setTipText("보도블럭이 발에 느껴진다..");
+                    UIManger.Instance.setTipText("유도블럭이 발에 느껴진다..");
                 }
                 else
                 {
