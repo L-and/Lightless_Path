@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
 
     public void sceneMove(string sceneName)
     {
+        Cursor.visible = false;
         SceneManager.LoadScene(sceneName);
     }
     

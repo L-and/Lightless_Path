@@ -29781,6 +29781,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 154
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1330748247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1330748249}
+  - component: {fileID: 1330748248}
+  m_Layer: 0
+  m_Name: StartScriptController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1330748248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330748247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bad6b90ab3e7d4f96190fed991f519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "\uD6A1\uB2E8\uBCF4\uB3C4\uB97C \uAC74\uB108\uBA74 \uC740\uD589\uC774 \uC788\uB2E4.
+    \uC720\uB3C4\uBE14\uB7ED\uC744 \uB530\uB77C \uD6A1\uB2E8\uBCF4\uB3C4\uB97C \uAC74\uB108\uC790"
+  delayTime: 4
+--- !u!4 &1330748249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330748247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.376953, y: 17.203926, z: 11.910752}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 227
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1330760701 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3487774946116252066, guid: 61a395244531d9a43b516a077658bb5e, type: 3}
@@ -38262,6 +38309,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8710287984117448912, guid: 5843dfa3d691d8b41b51b1b8b8c62334, type: 3}
+      propertyPath: m_text
+      value: "[Mission]\n\uC720\uB3C4\uBE14\uB7ED\uC744 \uB530\uB77C\uAC00\uC790"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5843dfa3d691d8b41b51b1b8b8c62334, type: 3}
 --- !u!1 &1708779351 stripped
@@ -41145,7 +41196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b0c23afb1a02045b88b244b7269ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endText: END TEXT
+  endText: "\uBB34\uC0AC\uD788 \uC740\uD589\uC5D0 \uB3C4\uCC29\uD588\uB2E4."
 --- !u!4 &1808225305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3487774946116252066, guid: 61a395244531d9a43b516a077658bb5e, type: 3}
