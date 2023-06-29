@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Materials.meta
 guid: cb3587dc3d3e08949b21d07d755f3587
 ========
 guid: 25a3e4884eb11774bbce8c47423058ad
 >>>>>>>> gwonsan:Assets/POLYGON city pack/Materials.meta
+=======
+<<<<<<< HEAD:Lightless_Path/Assets/Materials.meta
+guid: eedc6ea7be866614482a06e14d58e345
+=======
+guid: 1e054fc6b02310b4d83caf1fba417960
+>>>>>>> main_system:Assets/Materials.meta
+>>>>>>> graphic_resources
 folderAsset: yes
 timeCreated: 1517354822
 licenseType: Store
