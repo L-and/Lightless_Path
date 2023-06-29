@@ -34616,7 +34616,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 854150296834857032, guid: 61a395244531d9a43b516a077658bb5e, type: 3}
       propertyPath: text
-      value: Stop
+      value: "\uD6A1\uB2E8 \uBCF4\uB3C4\uB97C \uAC74\uB108\uAE30 \uC704\uD574\uC120
+        \uC74C\uD5A5 \uC2E0\uD638\uAE30 \uBC84\uD2BC\uC744 \uB20C\uB7EC\uC57C \uD560
+        \uAC83 \uAC19\uB2E4.  \uC74C\uD5A5 \uC2E0\uD638\uAE30\uC758 \uBC84\uD2BC\uC744
+        \uCC3E\uC544 \uB204\uB974\uC790."
       objectReference: {fileID: 0}
     - target: {fileID: 854150296834857032, guid: 61a395244531d9a43b516a077658bb5e, type: 3}
       propertyPath: type
