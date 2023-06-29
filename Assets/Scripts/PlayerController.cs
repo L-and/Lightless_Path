@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     {
         playerTransform = gameObject.GetComponent<Transform>();
 
-        playerCamera = gameObject.GetComponent<Transform>().FindChild("Main Camera").GetComponent<Camera>();
+        playerCamera = gameObject.GetComponent<Transform>().Find("Main Camera").GetComponent<Camera>();
     }
 
     void Update()
