@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/Text Scripts/Story Script.txt.meta
 <<<<<<<< HEAD:Assets/Scripts/Text Scripts/Story Script.txt.meta
 guid: 0c44a2921015a5b4691d661a4c9068bb
 ========
@@ -7,6 +8,10 @@ timeCreated: 1518054453
 licenseType: Store
 >>>>>>>> gwonsan:Assets/POLYGON city pack/Read_me.txt.meta
 TextScriptImporter:
+=======
+guid: e7a20b496a677084ab51068021ae6fcf
+PrefabImporter:
+>>>>>>> crosswalk-2:Assets/Prefabs/waitbutton.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

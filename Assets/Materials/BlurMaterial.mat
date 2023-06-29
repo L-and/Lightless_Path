@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
 <<<<<<<< HEAD:Assets/Materials/BlurMaterial.mat
   m_Name: BlurMaterial
-  m_Shader: {fileID: 4800000, guid: f01154b90cf35d04dbca7ff8295b95f8, type: 3}
+  m_Shader: {fileID: 4800000, guid: be7e20267aedf1d4fb0e924ea20e42c6, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
 ========
@@ -82,7 +82,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Radius: 7
-    - _Size: 20
+    - _Size: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -92,7 +92,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+    - _Color: {r: 0.5, g: 0.3111473, b: 0.11084905, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.9331545, g: 0.9339623, b: 0.8502581, a: 0.603}
     - _SkyTint: {r: 0.44279847, g: 0.7584344, b: 0.77205884, a: 1}

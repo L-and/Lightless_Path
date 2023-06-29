@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/TextEventTriggerSelecter.cs.meta
 <<<<<<<< HEAD:Assets/Scripts/TextEventTriggerSelecter.cs.meta
 guid: 349bd7c000057924ebc5044d8f3a51f2
 ========
 guid: 18e1024e2242f244f8e04d4a0ff335ae
 >>>>>>>> gwonsan:Assets/Scripts/Caraction.cs.meta
+=======
+guid: b68093e77e5a46645b08ff1500deb6b9
+>>>>>>> crosswalk-2:Assets/GetMouseButton.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

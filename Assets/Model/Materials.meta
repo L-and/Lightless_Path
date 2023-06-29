@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/Text Scripts.meta
 <<<<<<<< HEAD:Assets/Scripts/Text Scripts.meta
 guid: fef8102d84b77254e8352e908acb14ff
 ========
 guid: 40c41615d6040ed44ad89d7241225942
 >>>>>>>> gwonsan:Assets/Azerilo.meta
+=======
+guid: 981a13f6bef8ef1418f1aab31dcaa8f9
+>>>>>>> crosswalk-2:Assets/Model/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
