@@ -4,8 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - goal
   - Car
+=======
+  - Undefined
+  - waitbutton
+  - brailleBlock
+>>>>>>> 6e4df901a8aca6b0bf06234860ead3656a93e674
   layers:
   - Default
   - TransparentFX
