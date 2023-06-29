@@ -23,6 +23,7 @@ public class TextEventTriggerSelecter : MonoBehaviour
         Debug.Log(text);
     }
 
+    // triger collider 진입 시 Text 변경
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
@@ -38,6 +39,26 @@ public class TextEventTriggerSelecter : MonoBehaviour
             else if(type == Type.Mission)
             {
                 UIManger.Instance.setMissionText(text);
+            }
+        }
+    }
+
+    // triger collider 탈출 시 Text 초기화
+    private void OntriggerExit(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            if(type == Type.Story)
+            {
+                UIManger.Instance.setStoryText("");
+            }
+            else if(type == Type.Tip)
+            {
+                UIManger.Instance.setTipText("");
+            }
+            else if(type == Type.Mission)
+            {
+                UIManger.Instance.setMissionText("");
             }
         }
     }
