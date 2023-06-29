@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Caraction : MonoBehaviour
 {
+    [SerializeField]
+    UIManger uiManager;
+
+    [SerializeField]
+    GameObject ui;
 
     public AudioClip carClarkson;
     private AudioSource audioSource;
@@ -20,7 +25,11 @@ public class Caraction : MonoBehaviour
         if (collision.collider.gameObject.CompareTag("goal"))
         {
             Debug.Log("goal");
-            SceneManager.LoadScene("Cross_Scene");
+            Destroy(uiManager);
+            Destroy(ui);
+
+            SceneManager.LoadScene("stage_02");
         }
+
     }
 }

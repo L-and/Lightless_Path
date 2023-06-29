@@ -11,8 +11,10 @@ public class tmp : MonoBehaviour
         foreach(GameObject obj in tmpObject)
         {
             GameObject childObject = obj.GetComponent<Transform>().GetChild(0).gameObject;
-            childObject.tag = "brailleBlock";
-            childObject.GetComponent<TextEventTriggerSelecter>().type = TextEventTriggerSelecter.Type.Tip;
+
+            Destroy(childObject);
+            // childObject.tag = "brailleBlock";
+            // childObject.GetComponent<TextEventTriggerSelecter>().type = TextEventTriggerSelecter.Type.Tip;
         }
     }
 }

@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 0}
-  speed: 3
+  speed: 4
   mouseSensitivity: 3
 --- !u!54 &6929246485902451881
 Rigidbody:

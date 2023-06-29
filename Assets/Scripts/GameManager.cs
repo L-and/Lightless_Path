@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
         }
     }
     
+
     public void exitApp() // 프로그램 종료
     {
         Application.Quit();
@@ -38,5 +39,6 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
-
+    
+    
 }
