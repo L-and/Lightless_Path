@@ -15,7 +15,7 @@ public class GetMouseButton : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width/2, Screen.height/2,0));
             RaycastHit hit;
 
             if(Physics.Raycast(ray, out hit))
@@ -24,7 +24,12 @@ public class GetMouseButton : MonoBehaviour
             
                 Debug.Log("건너세요");
             }
-            
+            if (hit.transform.gameObject.tag == "waitbutton")
+            {
+                AudioSource Start = GetComponent<AudioSource>();
+                Start.Play();
+            }
         }
+
     }
 }

@@ -23,22 +23,23 @@ public class TextEventTriggerSelecter : MonoBehaviour
         Debug.Log(text);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            if(type == Type.Story)
+            if (type == Type.Story)
             {
                 UIManger.Instance.setStoryText(text);
             }
-            else if(type == Type.Tip)
+            else if (type == Type.Tip)
             {
                 UIManger.Instance.setTipText(text);
             }
-            else if(type == Type.Mission)
+            else if (type == Type.Mission)
             {
                 UIManger.Instance.setMissionText(text);
             }
+
         }
     }
 }
