@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIManger : MonoBehaviour
 {
@@ -41,16 +42,16 @@ public class UIManger : MonoBehaviour
     
     public void setStoryText(string text)
     {
-        storyText.GetComponent<Text>().text = text;
+        storyText.GetComponent<TextMeshProUGUI>().text = text;
     }
 
     public void setMissionText(string text)
     {
-        missionText.GetComponent<Text>().text = text;
+        missionText.GetComponent<TextMeshProUGUI>().text = text;
     }
 
     public void setTipText(string text)
     {
-        tipText.GetComponent<Text>().text = text;
+        tipText.GetComponent<TextMeshProUGUI>().text = text;
     }
 }
