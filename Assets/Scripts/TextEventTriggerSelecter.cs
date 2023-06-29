@@ -33,8 +33,16 @@ public class TextEventTriggerSelecter : MonoBehaviour
                 UIManger.Instance.setStoryText(text);
             }
             else if(type == Type.Tip)
-            {
-                UIManger.Instance.setTipText(text);
+            {   
+                Debug.Log(gameObject.tag);
+                if (gameObject.tag == "brailleBlock")
+                {
+                    UIManger.Instance.setTipText("보도블럭이 발에 느껴진다..");
+                }
+                else
+                {
+                    UIManger.Instance.setTipText(text);
+                }
             }
             else if(type == Type.Mission)
             {
@@ -44,7 +52,7 @@ public class TextEventTriggerSelecter : MonoBehaviour
     }
 
     // triger collider 탈출 시 Text 초기화
-    private void OntriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
@@ -60,6 +68,6 @@ public class TextEventTriggerSelecter : MonoBehaviour
             {
                 UIManger.Instance.setMissionText("");
             }
-        }
+        }   
     }
 }
